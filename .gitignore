@@ -1,0 +1,20 @@
+# Never commit personal configuration, state, models or credentials.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.sqlite
+*.sqlite3
+*.db
+*.db-wal
+*.db-shm
+*.log
+node_modules/
+.DS_Store
+coverage/
+dist/
+.cache/
